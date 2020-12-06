@@ -1,0 +1,31 @@
+body {
+    background-color:hsla(60, 8%, 91%, 1);
+}
+.user-option-for-account {
+    display: inline-block;
+}
+.user-option-for-account p {
+    display: inline;
+}
+.header {
+    display: flex;
+    background-color: red;
+    float: right;
+}
+.user-sign-in-button {
+    background: blue;
+    border-radius: 5px;
+    border-color: black;
+}
+.forgot {
+    text-decoration: none;
+}
+.top-head {
+    height: 60px;
+    background-color: blue;
+}
+.logo {
+    text-decoration: none;
+    font-size: 60px;
+    color: #999999;
+}
