@@ -9,23 +9,117 @@ body {
 }
 .header {
     display: flex;
-    background-color: red;
+    
     float: right;
 }
 .user-sign-in-button {
     background: blue;
     border-radius: 5px;
-    border-color: black;
+    cursor: pointer;
 }
 .forgot {
     text-decoration: none;
 }
 .top-head {
     height: 60px;
-    background-color: blue;
+    
 }
 .logo {
     text-decoration: none;
     font-size: 60px;
     color: #999999;
+}
+.mint-logo, .quick-logo, .turn-logo {
+    height: 19px;
+    border-radius: 50px;
+}
+.mint, .quickbox, .turbotax {
+    text-decoration: none;
+    font-size: 18px;
+    color: #999999;
+}
+form {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: white;
+    overflow: hidden;
+    width: 370px;
+    max-width: 960px;
+    margin: auto;
+}
+.intuit-form-head {
+    text-align: center;
+    
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+.account-creation-info {
+    padding: 20px 20px 0 20px;
+}
+.account-creation-info label {
+    color: black;
+    display: block;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.account-creation-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+    
+}
+label p {
+    display: inline;
+    font-size: 10px;
+}
+.create-account-button {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    background: #337FFF;
+    border-radius: 5px;
+}
+.create-account {
+    padding: 20px 20px 20px 20px;
+}
+.mint-quickbox-turbotax, .intuit-logo {
+    text-align: center;
+}
+.intuit-form-terms-condition {
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.intuit-form-date {
+    padding-top: 18px;
+    text-align: center;
+    font-weight: 546;
+}
+.intuit-form-end {
+    background-color: hsla(60, 8%, 91%, 1);
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 10px;
+    font-weight: 100;
+    color: lightslategrey;
+}
+.legal, .privacy, .security {
+    text-decoration: none;
+    color: #1C2833;
+    font-weight: lighter;
 }
